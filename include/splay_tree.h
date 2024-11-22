@@ -2,6 +2,7 @@
 #define SPLAY_TREE_H
 
 #include <iostream>
+#include <sstream>
 
 class Node {
 public:
@@ -36,6 +37,8 @@ public:
     void remove(int key);
     void print();
     int getCurrentSize() const { return current_size; }
+    std::string toString();  // No need for SplayTree:: here
+    void inorderTraversal(Node* node, std::ostringstream& oss);  // No need for SplayTree:: here
 };
 
 #endif // SPLAY_TREE_H

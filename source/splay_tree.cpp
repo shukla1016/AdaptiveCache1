@@ -206,3 +206,29 @@ void SplayTree::print() {
     Node *temp = root;
     preOrder(temp);
 }
+
+
+std::string SplayTree::toString() {
+    std::ostringstream oss;
+    inorderTraversal(root, oss);  // Generate in-order string representation of the tree
+    return oss.str();             // Return the final string
+}
+
+// Helper function for in-order traversal to generate the string
+void SplayTree::inorderTraversal(Node* node, std::ostringstream& oss) {
+    if (node == nullptr) {
+        return;
+    }
+
+    // Traverse left subtree
+    inorderTraversal(node->left, oss);
+
+    // Append current node to string in the format [key: frequency, recency, score]
+    oss << "[Key: " << node->key
+        << ", Frequency: " << node->frequency
+        << ", Recency: " << node->recency
+        << ", Score: " << node->score << "] ";
+
+    // Traverse right subtree
+    inorderTraversal(node->right, oss);
+}

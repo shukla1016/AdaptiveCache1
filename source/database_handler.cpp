@@ -32,12 +32,14 @@ std::vector<std::pair<int, std::string>> DatabaseHandler::fetchRecords() {
 }
 
 // Insert a record into the database
-void DatabaseHandler::insertRecord(int key, const std::string& value) {
+int DatabaseHandler::insertRecord(int key, const std::string& value) {
     std::string sql = "INSERT INTO Cache (key, value) VALUES (" + std::to_string(key) + ", '" + value + "');";
     if (sqlite3_exec(db, sql.c_str(), nullptr, nullptr, &errorMessage) != SQLITE_OK) {
         std::cerr << "Error inserting record: " << errorMessage << std::endl;
         sqlite3_free(errorMessage);
+        return 1;
     }
+    return 0;
 }
 
 // Delete a record from the database

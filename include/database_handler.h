@@ -14,7 +14,7 @@ public:
     DatabaseHandler(const std::string& dbName);
     ~DatabaseHandler();
     std::vector<std::pair<int, std::string>> fetchRecords();
-    void insertRecord(int key, const std::string& value);
+    int insertRecord(int key, const std::string& value);
     void deleteRecord(int key);
     std::string getValue(int key);
 };

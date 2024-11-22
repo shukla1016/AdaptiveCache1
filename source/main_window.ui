@@ -1,0 +1,63 @@
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="windowTitle">
+   <string>Adaptive Cache UI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="keyInput"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="searchButton">
+     <property name="text">
+      <string>Search</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="insertButton">
+     <property name="text">
+      <string>Insert</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="deleteButton">
+     <property name="text">
+      <string>Delete</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="displayCacheButton">
+     <property name="text">
+      <string>Display Cache</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="exitButton">
+     <property name="text">
+      <string>Exit</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="resultLabel">
+     <property name="text">
+      <string>Results will appear here</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="logTextEdit">
+     <property name="text">
+      <string>Logs will appear here</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <connections/>
+</ui>
