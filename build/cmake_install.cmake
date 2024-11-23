@@ -1,4 +1,4 @@
-# Install script for directory: /home/shuklapa/adaptive_cache_project
+# Install script for directory: /home/shuklapa/adaptive_cache_project/AdaptiveCache
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shuklapa/adaptive_cache_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shuklapa/adaptive_cache_project/AdaptiveCache/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

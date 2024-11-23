@@ -1,7 +1,7 @@
 CMakeFiles/adaptive_cache_project.dir/source/main_window.cpp.o: \
- /home/shuklapa/adaptive_cache_project/source/main_window.cpp \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/source/main_window.cpp \
  /usr/include/stdc-predef.h \
- /home/shuklapa/adaptive_cache_project/include/main_window.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/include/main_window.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -276,7 +276,7 @@ CMakeFiles/adaptive_cache_project.dir/source/main_window.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/shuklapa/adaptive_cache_project/source/ui_main_window.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/source/ui_main_window.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
@@ -311,7 +311,7 @@ CMakeFiles/adaptive_cache_project.dir/source/main_window.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
- /home/shuklapa/adaptive_cache_project/include/database_handler.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/include/database_handler.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
@@ -322,10 +322,10 @@ CMakeFiles/adaptive_cache_project.dir/source/main_window.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/sqlite3.h \
- /home/shuklapa/adaptive_cache_project/include/splay_tree.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/include/splay_tree.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /home/shuklapa/adaptive_cache_project/include/database_handler.h \
- /home/shuklapa/adaptive_cache_project/include/splay_tree.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/include/database_handler.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/include/splay_tree.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \

@@ -1,7 +1,7 @@
 CMakeFiles/adaptive_cache_project.dir/source/database_handler.cpp.o: \
- /home/shuklapa/adaptive_cache_project/source/database_handler.cpp \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/source/database_handler.cpp \
  /usr/include/stdc-predef.h \
- /home/shuklapa/adaptive_cache_project/include/database_handler.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/include/database_handler.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

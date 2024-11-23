@@ -1,7 +1,7 @@
 CMakeFiles/adaptive_cache_project.dir/source/splay_tree.cpp.o: \
- /home/shuklapa/adaptive_cache_project/source/splay_tree.cpp \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/source/splay_tree.cpp \
  /usr/include/stdc-predef.h \
- /home/shuklapa/adaptive_cache_project/include/splay_tree.h \
+ /home/shuklapa/adaptive_cache_project/AdaptiveCache/include/splay_tree.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
