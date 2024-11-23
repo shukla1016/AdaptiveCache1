@@ -8,7 +8,7 @@
 #include <iostream>
 
 const double ALPHA = 0.5;       // For score calculation
-const int MAX_CACHE_SIZE = 3;   // Maximum cache size
+const int MAX_CACHE_SIZE = 10;   // Maximum cache size
 static long long int global_time = 0;
 
 MainWindow::MainWindow(QWidget *parent)

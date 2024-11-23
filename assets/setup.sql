@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS cache (
-    key INTEGER PRIMARY KEY,
-    value TEXT NOT NULL
-);

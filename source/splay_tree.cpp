@@ -227,7 +227,7 @@ void SplayTree::inorderTraversal(Node* node, std::ostringstream& oss) {
     oss << "[Key: " << node->key
         << ", Frequency: " << node->frequency
         << ", Recency: " << node->recency
-        << ", Score: " << node->score << "] ";
+        << ", Score: " << node->score << "] " << endl;
 
     // Traverse right subtree
     inorderTraversal(node->right, oss);
